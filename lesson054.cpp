@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+/*
 int main() {
 	int x{ 5 };
 	if (x >= 1 && x <= 10)
@@ -20,5 +20,5 @@ int main() {
 
 	return 0;
 }
-
+*/
 
