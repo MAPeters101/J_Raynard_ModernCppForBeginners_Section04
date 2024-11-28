@@ -24,6 +24,7 @@ void print(string s) {
 	cout << s << endl;
 }
 
+/*
 int main() {
 	int a{ 5 };
 	cout << a << " * 2 = " << times_two(a) << endl;
@@ -36,4 +37,4 @@ int main() {
 
 	return 0;
 }
-
+*/
