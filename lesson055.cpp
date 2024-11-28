@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+/*
 int main() {
 	int x{ 11 };
 	if (x < 0 || x > 10)
@@ -23,7 +23,14 @@ int main() {
 		cout << "Your character has gone off screen.\n\n";
 
 
+	x = 0;
+	if (!x)
+		cout << "x is equal to zero.\n\n";
+
+	if (!(cin >> x))
+		cout << "Please enter a valid number.\n";
+
 	return 0;
 }
-
+*/
 
