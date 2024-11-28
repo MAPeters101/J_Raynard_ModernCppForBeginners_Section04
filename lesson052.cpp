@@ -24,6 +24,7 @@ void print(string s) {
 	cout << s << endl;
 }
 
+
 /*
 int main() {
 	int a{ 5 };
