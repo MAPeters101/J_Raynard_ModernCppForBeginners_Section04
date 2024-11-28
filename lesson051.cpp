@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-
+/*
 int times_two(int x) {
 	cout << "Returning " << x * 2 << endl;
 	return x * 2;
@@ -13,5 +13,5 @@ int main() {
 	cout << a << " times 2 equals " << b << endl;
 	return 0;
 }
-
+*/
 
