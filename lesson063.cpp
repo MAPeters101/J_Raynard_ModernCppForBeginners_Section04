@@ -3,6 +3,31 @@
 
 using namespace std;
 
+/*
+void show_box(string output, char symbol, size_t nblanks) {
+	const string CORNER(nblanks + 1, symbol);
+	const string PAD(nblanks, ' ');
+	const string LHS{ symbol + PAD }, RHS{ PAD + symbol };
+	size_t content_len = output.size();
+	const string BLANKS(content_len, ' ');
+	const string SYMBOLS(content_len, symbol);
+
+	string all_symbols{ CORNER + SYMBOLS + CORNER };
+	string symbols_blanks{ LHS + BLANKS + RHS };
+	string content(LHS + output + RHS);
+	vector<string> lines;
+	lines.push_back(all_symbols);
+	lines.push_back(symbols_blanks);
+	lines.push_back(content);
+	lines.push_back(symbols_blanks);
+	lines.push_back(all_symbols);
+	for (auto it : lines) {
+		cout << it << endl;
+	}
+
+
+}
+
 int main() {
 	string instr{ "" };
 	cin >> instr;
@@ -60,9 +85,15 @@ int main() {
 	for (auto it : lines) {
 		cout << it << endl;
 	}
+	cout << "\n\n";
 
+	show_box("Hello, " + instr, '*', 1);
+	cout << "\n\n";
+
+	show_box("Hello, James", '=', 3);
+	cout << "\n\n";
 
 
 	return 0;
 }
-
+*/
