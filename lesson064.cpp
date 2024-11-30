@@ -4,6 +4,7 @@
 
 using namespace std;
 
+/*
 int main() {
 	int grade{ 0 };
 	double sum{ 0.0 };
@@ -19,8 +20,17 @@ int main() {
 		}
 	}
 	sort(grades.begin(), grades.end());
+	size_t output_count{ 1 };
+
 	for (auto it : grades) {
-		cout << it << ", ";
+		cout << it;
+		if (output_count % 5 == 0) {
+			cout << endl;
+		}
+		else if (output_count != grades.size()) {
+			cout << ", ";
+		}
+		++output_count;
 	}
 	cout << "\n";
 
@@ -33,4 +43,4 @@ int main() {
 	}
 	return 0;
 }
-
+*/
