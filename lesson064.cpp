@@ -8,12 +8,20 @@ int main() {
 	double sum{ 0.0 };
 	cout << "Please enter the grades (-1 to finish)\n";
 	while (cin >> grade && grade >= 0) {
-		sum += grade;
-		++count;
+		if (grade > 100) {
+			cout << "Please enter a grade between 0 and 100." << endl;
+		}
+		else {
+			sum += grade;
+			++count;
+		}
 	}
-	cout << count << " grades enterd." << endl;
-	cout << "Average grade is " << sum / count << endl;
-
+	if (count == 0)
+		cout << "No valid grades entered." << endl;
+	else {
+		cout << count << " grades enterd." << endl;
+		cout << "Average grade is " << sum / count << endl;
+	}
 	return 0;
 }
 
