@@ -140,6 +140,7 @@
     <ClCompile Include="lesson061.cpp" />
     <ClCompile Include="lesson062.cpp" />
     <ClCompile Include="lesson063.cpp" />
+    <ClCompile Include="lesson064.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
